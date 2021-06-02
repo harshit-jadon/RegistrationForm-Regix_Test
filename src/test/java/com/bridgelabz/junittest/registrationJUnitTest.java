@@ -6,6 +6,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class registrationJUnitTest {
+
     @Test
     public void firstName_whenProper_giventrue() throws RegistrationFormException {
         RegistrationForm registrationForm = new RegistrationForm();
